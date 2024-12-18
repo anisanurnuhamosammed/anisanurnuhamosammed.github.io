@@ -1,0 +1,28 @@
+<p a class="dimostrazione">Dimostrazione dei Font CSS</p>
+<style>
+.dimostrazione {
+color: #666666;
+font-size: 12px
+font-weight: bold;
+}
+</style>
+
+<p a href="ciao">Testo con Font monospace e colore #ff3333</p>
+<style>
+.ciao{
+color: #ff3333;
+font-size: 12px
+font-family: monospace;
+font-wight: bold;
+}
+</style>
+
+<p a class="wow">Questo paragrafo ha una mimendione di testo aumentata (24px).</p>
+<style>
+.wow{
+font-size: 24px
+
+}
+
+
+</style>
