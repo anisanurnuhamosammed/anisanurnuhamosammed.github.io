@@ -1,10 +1,10 @@
-<p a class="titolo">Ode ai CSS</p>
+<p class="titolo">Ode ai CSS</p>
 <style>
  .titolo{
 color: #339966;
 font-family: sans-serif
-font-size: 30px
+font-size: 100px
 } 
 </style>
 
-<p a class="color">
+<p class="color">Con il color dipingi emozioni,</p>
