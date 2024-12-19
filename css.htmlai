@@ -1,9 +1,10 @@
-<p a href="titolo">Ode ai CSS</p>
+<p a class="titolo">Ode ai CSS</p>
 <style>
  .titolo{
 color: #339966;
-font-family: sans-sherif
-   font-size: 30px
+font-family: sans-serif
+font-size: 30px
 } 
 </style>
 
+<p a class="color">
