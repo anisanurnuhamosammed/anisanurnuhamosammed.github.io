@@ -1,5 +1,20 @@
-h1{
-  color:red;
-  font-family: Georgia, Times, serif, bold;
-  font-size: 30px;
+<p class="titolo">Ode ai CSS</p>
+<style>
+ .arcobaleno{
+ color: ;
+ font-family: sans-serif;
+ font-size: 100px
+   
+ }
+</style>
+
+
+<p class="color">Con il</p>
+<style>
+.color{
+ color: #ff944d;
+  font-family: fantasy;
+  font-size: 40px
+
 }
+</style>
