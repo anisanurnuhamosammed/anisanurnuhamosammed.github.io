@@ -1,4 +1,4 @@
-<p class="Titolo">Ode ai CSS</p>
+<p class="arcobaleno">Ode ai CSS</p>
 <style>
  .Titolo{
  color:#00cc99;
@@ -26,7 +26,7 @@ color:#ff9966;
 }
 </style>
 
-<p class="size">questo è un paragrafo con il colore rosso (#ff4d4d)</p>
+<p class="size">Con il font-size crei dimensioni.</p>
 <style>
  .size{
  color: #ff4d4d;
@@ -35,7 +35,7 @@ color:#ff9966;
  </style>
 
 
-<p class="family">questo è un paragrafo con il colore arancione (#ffa64d)</p>
+<p class="family">con il font-family racconta lo stile</p>
 <style>
  .family{
  color: #ffa64d;
@@ -44,7 +44,7 @@ color:#ff9966;
 </style>
 
 
-<p class="style">questo è un paragrafo con il colore giallo (#ffff66)</p>
+<p class="style"> con il font-style tutto è più sottile.</p>
 <style>
 .style{
  color: #ffff66;
@@ -52,7 +52,7 @@ color:#ff9966;
 }
  </style>
 
-<p class="weight">questo è un paragrafo con il colore vere (#00b33c)</p>
+<p class="weight"></p>
 <style>
  .weight{
   color: #00b33c;
