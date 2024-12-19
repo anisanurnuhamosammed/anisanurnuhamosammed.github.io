@@ -1,27 +1,63 @@
-<p class="titolo">Ode ai CSS</p>
+<p class="Titolo">Ode ai CSS</p>
 <style>
- .arcobaleno{
- color: #00cc99;
+ .Titolo{
+ color:#00cc99;
  font-family: sans-serif;
  font-size: 100px
-   
  }
 </style>
 
-
 <p class="color">Con il colore dipingi emozioni,</p>
+<p class="ciao"> colore</p>
 
-p2{
-color:#ffcc00;
- font-family: 
+<style>
+.ciao{
+color:#ff9966;
  
-
 }
+</style>
+
 <style>
 .color{
- color: #ff944d;
-  font-family: fantasy;
-  font-size: 40px
-
+ color: #ff80d5;
+ font-family: monospace;
+ font-size: 26px
+ font-weight: bold;
 }
+</style>
+
+<p class="size">questo è un paragrafo con il colore rosso (#ff4d4d)</p>
+<style>
+ .size{
+ color: #ff4d4d;
+ font-size:16px
+}
+ </style>
+
+
+<p class="family">questo è un paragrafo con il colore arancione (#ffa64d)</p>
+<style>
+ .family{
+ color: #ffa64d;
+ font-size:16px
+}
+</style>
+
+
+<p class="style">questo è un paragrafo con il colore giallo (#ffff66)</p>
+<style>
+.style{
+ color: #ffff66;
+ font-size:16px
+}
+ </style>
+
+<p class="weight">questo è un paragrafo con il colore vere (#00b33c)</p>
+<style>
+ .weight{
+  color: #00b33c;
+  font-size:16px
+ }
+</style>
+
 </style>
