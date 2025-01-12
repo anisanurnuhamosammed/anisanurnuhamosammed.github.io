@@ -8,7 +8,7 @@ body {
   font-style: italic;
   font-family: monospace; 
 }
-b {
+b{
     color: #99ff33;
     font-size: 25px;
     font-family: serif; 
@@ -20,13 +20,39 @@ b {
     font-size: 30px;
     font-weight: bold;
   }
+  table{
+		border-style: solid;
+		border-width: 3px;
+		border-color: #ccccff;
+		border-collapse: collapse;	
+  }
+	
+	td, th{
+		border-style: solid;
+		border-width: 3px;
+		border-color: black;
+	}
+	
+	.testo-verde{
+		color: #b2b266;
+	}
+	
+	#testo-giallo{
+		color: #ffff99;
+	}
 </style>
 
 <img src="john-von-neumann.jpg">
 <p class="font"> Von Neumann</p>
 <table>
-  <b> Nascita: 28 dicembre 1903</b>
-  
-</table>
+  <tr>
+    <td>
+      <p id="testo-giallo">Nascita: 28 dicembre 1903</p>
+    </td>
+  </tr>  
+</style>
+
+
+
 
 
