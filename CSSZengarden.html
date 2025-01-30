@@ -1,62 +1,81 @@
 <style>
   body {
-  background-color: #d9ffb3;
+  background-color: #d3ffd8;
 }
 
   h1{ 
-    color: #ff4d4d;
+    color: #ad79fa;
     font-family: fantasy; 
     font-style: italic;
     font-weight: bold;
   }
 
   h2{
-    color: #8585ad;
+    color: #38383e;
     font-family: serif;
   }
   
   p {
-    color: #669900;
+    color: #02b42e;
     font-size: 25px;
     font-family: fantasy; 
     font-weight: normal;
   }
-  #font{
-    color: ;
-  }
  span.grassetto{
-    color: #ff80aa;
+  position: absolute;
+
+    top: 50px;
+    left: 50px;
+    color: #0c754c;
     font-size: 25px;
     font-family: serif;
     font-weight: bold;
   }
 
 span.corsivo{
-  color: #ff7733;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #ffc8fe;
   font-size: 25px;
   font-family: cursive;
   font-weight: bold;
 }
-a{ text-decoration: none;}
+
+
+#piccione{
+  top: 50px;
+  left: 50px;
+  position: absolute;
+
+}
+
+#canguro {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+
+#canguro:hover{
+  left: 250px;
+  
+
+}
+a{ text-decoration: none;
 a:hover {
-    background-color: aqua;
+    background-color: rgb(69, 253, 253);
     transition:500ms;
     tr
-      }
+  }
   
-  </style>
+</style>
+
 <body>
- <centre> 
 <h1>CSS ZENGARDEN</h1>
 <h2>Una sfida a colpi di colori</h2>
 <p>Solo i veri sigma saranno in grado di rendere questa pagina bellissima</p>
 <h3><a href="von-neumann.html">John von Neumann</a></h3>
-<p>È generalmente considerato come uno dei più grandi matematici della storia moderna e una delle personalità scientifiche preminenti del XX secolo. A lui si devono contributi fondamentali in numerosi campi della conoscenza come la <span class="grassetto">teoria degli insiemi</span>, <span class="grassetto">analisi funzionale</span>, <span class="corsivo">topologia</span>, <span class="corsivo">fisica quantistica</span>, economia, informatica, teoria dei giochi, fluidodinamica e in molti altri settori della matematica.</p>
-  </centre>
+<p>È generalmente considerato come uno dei più grandi matematici della storia moderna e una delle personalità scientifiche preminenti del XX secolo. A lui si devono contributi fondamentali in numerosi campi della conoscenza come la <span class="grassetto">teoria degli insiemi</span>, <span id="piccione">analisi funzionale</span>, <span id="canguro">topologia</span>, <span class="corsivo">fisica quantistica</span>, economia, informatica, teoria dei giochi, fluidodinamica e in molti altri settori della matematica.</p>
 </body>
-
-
-
-
-
-
